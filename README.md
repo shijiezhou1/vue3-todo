@@ -1,5 +1,7 @@
 # vue3-todo
 
+![](todo.png)
+
 ## Project setup
 ```
 yarn install

@@ -1,22 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Vue 3 Todo App:</h1>
+  <Container /> 
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Container from './components/Container';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Container
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
